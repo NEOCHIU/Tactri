@@ -17,6 +17,43 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    ValidQueryViewController *validQueryVC =[[ValidQueryViewController alloc]initWithNibName:@"ValidQueryViewController" bundle:nil];
+    ValidInfoViewController *valiInfoVC= [[ValidInfoViewController alloc]initWithNibName:@"ValidInfoViewController" bundle:nil];
+    
+    
+     CopyRightViewController *copyRightVC =[[CopyRightViewController alloc]initWithNibName:@"CopyRightViewController" bundle:nil];
+     AboutViewController *aboutVC =[[AboutViewController alloc]initWithNibName:@"AboutViewController" bundle:nil];
+    
+   UINavigationController *navValidQuery = [[UINavigationController alloc]initWithRootViewController:validQueryVC];
+    
+    UINavigationController *navValiInfoVC = [[UINavigationController alloc]initWithRootViewController:valiInfoVC];
+    
+    
+    
+    UINavigationController *navCopyRight = [[UINavigationController alloc]initWithRootViewController:copyRightVC];
+    UINavigationController *navAbout = [[UINavigationController alloc]initWithRootViewController:aboutVC];
+    
+    //tabBar 生成
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[navValidQuery,navAbout,navCopyRight];
+    
+    //tabBar 名稱
+    [navValidQuery.tabBarItem setTitle:@"首頁"];
+    [navAbout.tabBarItem setTitle:@"關於我"];
+    [navCopyRight.tabBarItem setTitle:@"著作權"];
+    
+    
+    _revealSideViewController = [[PPRevealSideViewController alloc] initWithRootViewController:tabBarController];
+    _revealSideViewController.delegate = self;
+    
+    //6.將window.rootViewController設定為上面生成的TabBarController
+    
+    self.window.rootViewController = navValiInfoVC;
+//self.window.rootViewController = _revealSideViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

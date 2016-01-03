@@ -15,6 +15,29 @@
 		422431051C2285CD008A0B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422431031C2285CD008A0B0C /* LaunchScreen.storyboard */; };
 		422431101C2285CE008A0B0C /* TactriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4224310F1C2285CE008A0B0C /* TactriTests.m */; };
 		4224311B1C2285CE008A0B0C /* TactriUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4224311A1C2285CE008A0B0C /* TactriUITests.m */; };
+		4224312B1C2289A2008A0B0C /* ValidQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422431291C2289A2008A0B0C /* ValidQueryViewController.m */; };
+		4224312C1C2289A2008A0B0C /* ValidQueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4224312A1C2289A2008A0B0C /* ValidQueryViewController.xib */; };
+		422431301C228C8A008A0B0C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4224312E1C228C8A008A0B0C /* AboutViewController.m */; };
+		422431311C228C8A008A0B0C /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4224312F1C228C8A008A0B0C /* AboutViewController.xib */; };
+		422431351C228D11008A0B0C /* CopyRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422431331C228D11008A0B0C /* CopyRightViewController.m */; };
+		422431361C228D11008A0B0C /* CopyRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422431341C228D11008A0B0C /* CopyRightViewController.xib */; };
+		422431391C229F97008A0B0C /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422431381C229F97008A0B0C /* LeftViewController.m */; };
+		425866BB1C23D91D00999FA8 /* libPPHelpMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 425866BA1C23D91D00999FA8 /* libPPHelpMe.a */; };
+		425866BD1C23D92F00999FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425866BC1C23D92F00999FA8 /* UIKit.framework */; };
+		425866BF1C23D94C00999FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425866BE1C23D94C00999FA8 /* CoreGraphics.framework */; };
+		425866C11C23D95900999FA8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425866C01C23D95900999FA8 /* QuartzCore.framework */; };
+		425866C31C23DC0A00999FA8 /* libPPRevealSideViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 425866C21C23DC0A00999FA8 /* libPPRevealSideViewController.a */; };
+		425866C61C23DEBF00999FA8 /* nav_hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 425866C51C23DEBF00999FA8 /* nav_hat.png */; };
+		425866C81C23DF7400999FA8 /* ic_nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 425866C71C23DF7400999FA8 /* ic_nav.png */; };
+		425866CB1C23E5B300999FA8 /* GlobalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 425866CA1C23E5B300999FA8 /* GlobalClass.m */; };
+		425866D11C2792EE00999FA8 /* InvalidQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425866CF1C2792EE00999FA8 /* InvalidQueryViewController.m */; };
+		425866D21C2792EE00999FA8 /* InvalidQueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425866D01C2792EE00999FA8 /* InvalidQueryViewController.xib */; };
+		425866D81C27EF1E00999FA8 /* VaildQueryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 425866D61C27EF1E00999FA8 /* VaildQueryTableViewCell.m */; };
+		425866D91C27EF1E00999FA8 /* VaildQueryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425866D71C27EF1E00999FA8 /* VaildQueryTableViewCell.xib */; };
+		4291AC341C3283C8006229DA /* ValidInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4291AC321C3283C8006229DA /* ValidInfoViewController.m */; };
+		4291AC351C3283C8006229DA /* ValidInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4291AC331C3283C8006229DA /* ValidInfoViewController.xib */; };
+		4291AC381C328A1F006229DA /* ValidObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4291AC371C328A1F006229DA /* ValidObject.m */; };
+		FC6A54E1790CA8F215242935 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D19C36CC3AE5046238F24C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +74,42 @@
 		422431161C2285CE008A0B0C /* TactriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TactriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4224311A1C2285CE008A0B0C /* TactriUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TactriUITests.m; sourceTree = "<group>"; };
 		4224311C1C2285CE008A0B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422431281C2289A2008A0B0C /* ValidQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ValidQueryViewController.h; path = ../ValidQueryViewController.h; sourceTree = "<group>"; };
+		422431291C2289A2008A0B0C /* ValidQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ValidQueryViewController.m; path = ../ValidQueryViewController.m; sourceTree = "<group>"; };
+		4224312A1C2289A2008A0B0C /* ValidQueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ValidQueryViewController.xib; path = ../ValidQueryViewController.xib; sourceTree = "<group>"; };
+		4224312D1C228C8A008A0B0C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		4224312E1C228C8A008A0B0C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		4224312F1C228C8A008A0B0C /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutViewController.xib; path = ../AboutViewController.xib; sourceTree = "<group>"; };
+		422431321C228D11008A0B0C /* CopyRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CopyRightViewController.h; path = ../CopyRightViewController.h; sourceTree = "<group>"; };
+		422431331C228D11008A0B0C /* CopyRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CopyRightViewController.m; path = ../CopyRightViewController.m; sourceTree = "<group>"; };
+		422431341C228D11008A0B0C /* CopyRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CopyRightViewController.xib; path = ../CopyRightViewController.xib; sourceTree = "<group>"; };
+		422431371C229F97008A0B0C /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		422431381C229F97008A0B0C /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		425866B81C23D6F600999FA8 /* libPPRevealSideViewController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPPRevealSideViewController.a; path = "Pods/../build/Debug-iphoneos/libPPRevealSideViewController.a"; sourceTree = "<group>"; };
+		425866BA1C23D91D00999FA8 /* libPPHelpMe.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPPHelpMe.a; path = "Pods/../build/Debug-iphoneos/libPPHelpMe.a"; sourceTree = "<group>"; };
+		425866BC1C23D92F00999FA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		425866BE1C23D94C00999FA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		425866C01C23D95900999FA8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		425866C21C23DC0A00999FA8 /* libPPRevealSideViewController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPPRevealSideViewController.a; path = "Pods/../build/Debug-iphoneos/libPPRevealSideViewController.a"; sourceTree = "<group>"; };
+		425866C51C23DEBF00999FA8 /* nav_hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_hat.png; sourceTree = "<group>"; };
+		425866C71C23DF7400999FA8 /* ic_nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_nav.png; sourceTree = "<group>"; };
+		425866C91C23E5B300999FA8 /* GlobalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalClass.h; sourceTree = "<group>"; };
+		425866CA1C23E5B300999FA8 /* GlobalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalClass.m; sourceTree = "<group>"; };
+		425866CC1C23F59400999FA8 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		425866CE1C2792EE00999FA8 /* InvalidQueryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvalidQueryViewController.h; path = ../InvalidQueryViewController.h; sourceTree = "<group>"; };
+		425866CF1C2792EE00999FA8 /* InvalidQueryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InvalidQueryViewController.m; path = ../InvalidQueryViewController.m; sourceTree = "<group>"; };
+		425866D01C2792EE00999FA8 /* InvalidQueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InvalidQueryViewController.xib; path = ../InvalidQueryViewController.xib; sourceTree = "<group>"; };
+		425866D51C27EF1E00999FA8 /* VaildQueryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VaildQueryTableViewCell.h; sourceTree = "<group>"; };
+		425866D61C27EF1E00999FA8 /* VaildQueryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VaildQueryTableViewCell.m; sourceTree = "<group>"; };
+		425866D71C27EF1E00999FA8 /* VaildQueryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VaildQueryTableViewCell.xib; sourceTree = "<group>"; };
+		4291AC311C3283C8006229DA /* ValidInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidInfoViewController.h; sourceTree = "<group>"; };
+		4291AC321C3283C8006229DA /* ValidInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidInfoViewController.m; sourceTree = "<group>"; };
+		4291AC331C3283C8006229DA /* ValidInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValidInfoViewController.xib; sourceTree = "<group>"; };
+		4291AC361C328A1F006229DA /* ValidObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidObject.h; sourceTree = "<group>"; };
+		4291AC371C328A1F006229DA /* ValidObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidObject.m; sourceTree = "<group>"; };
+		62D19C36CC3AE5046238F24C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADDD0329FCB0456118E6124 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A304DE099F2BAF5E2ABA1E21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425866C31C23DC0A00999FA8 /* libPPRevealSideViewController.a in Frameworks */,
+				425866C11C23D95900999FA8 /* QuartzCore.framework in Frameworks */,
+				425866BF1C23D94C00999FA8 /* CoreGraphics.framework in Frameworks */,
+				425866BD1C23D92F00999FA8 /* UIKit.framework in Frameworks */,
+				425866BB1C23D91D00999FA8 /* libPPHelpMe.a in Frameworks */,
+				FC6A54E1790CA8F215242935 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +146,14 @@
 		422430E91C2285CD008A0B0C = {
 			isa = PBXGroup;
 			children = (
+				425866CD1C23FBEA00999FA8 /* GlobalClass */,
+				425866C41C23DEA800999FA8 /* image */,
 				422430F41C2285CD008A0B0C /* Tactri */,
 				4224310E1C2285CE008A0B0C /* TactriTests */,
 				422431191C2285CE008A0B0C /* TactriUITests */,
 				422430F31C2285CD008A0B0C /* Products */,
+				F8DA345AAD099BF803089603 /* Pods */,
+				5618C73A67169E4C525194B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +170,8 @@
 		422430F41C2285CD008A0B0C /* Tactri */ = {
 			isa = PBXGroup;
 			children = (
+				425866D31C2795B800999FA8 /* SPEC */,
+				425866D41C2795CE00999FA8 /* LeftSide */,
 				422430F81C2285CD008A0B0C /* AppDelegate.h */,
 				422430F91C2285CD008A0B0C /* AppDelegate.m */,
 				422430FB1C2285CD008A0B0C /* ViewController.h */,
@@ -140,6 +211,116 @@
 			path = TactriUITests;
 			sourceTree = "<group>";
 		};
+		425866C41C23DEA800999FA8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				425866C51C23DEBF00999FA8 /* nav_hat.png */,
+				425866C71C23DF7400999FA8 /* ic_nav.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		425866CD1C23FBEA00999FA8 /* GlobalClass */ = {
+			isa = PBXGroup;
+			children = (
+				425866CC1C23F59400999FA8 /* Prefix.pch */,
+				425866C91C23E5B300999FA8 /* GlobalClass.h */,
+				425866CA1C23E5B300999FA8 /* GlobalClass.m */,
+			);
+			name = GlobalClass;
+			sourceTree = "<group>";
+		};
+		425866D31C2795B800999FA8 /* SPEC */ = {
+			isa = PBXGroup;
+			children = (
+				4291AC2D1C3282AA006229DA /* ValidQuery */,
+				4291AC2E1C3282DA006229DA /* InvalidQuery */,
+				4291AC301C32830E006229DA /* About */,
+				4291AC2F1C3282FD006229DA /* CopyRight */,
+			);
+			name = SPEC;
+			sourceTree = "<group>";
+		};
+		425866D41C2795CE00999FA8 /* LeftSide */ = {
+			isa = PBXGroup;
+			children = (
+				422431371C229F97008A0B0C /* LeftViewController.h */,
+				422431381C229F97008A0B0C /* LeftViewController.m */,
+			);
+			name = LeftSide;
+			sourceTree = "<group>";
+		};
+		4291AC2D1C3282AA006229DA /* ValidQuery */ = {
+			isa = PBXGroup;
+			children = (
+				422431281C2289A2008A0B0C /* ValidQueryViewController.h */,
+				422431291C2289A2008A0B0C /* ValidQueryViewController.m */,
+				4224312A1C2289A2008A0B0C /* ValidQueryViewController.xib */,
+				425866D51C27EF1E00999FA8 /* VaildQueryTableViewCell.h */,
+				425866D61C27EF1E00999FA8 /* VaildQueryTableViewCell.m */,
+				425866D71C27EF1E00999FA8 /* VaildQueryTableViewCell.xib */,
+				4291AC311C3283C8006229DA /* ValidInfoViewController.h */,
+				4291AC321C3283C8006229DA /* ValidInfoViewController.m */,
+				4291AC331C3283C8006229DA /* ValidInfoViewController.xib */,
+				4291AC361C328A1F006229DA /* ValidObject.h */,
+				4291AC371C328A1F006229DA /* ValidObject.m */,
+			);
+			name = ValidQuery;
+			sourceTree = "<group>";
+		};
+		4291AC2E1C3282DA006229DA /* InvalidQuery */ = {
+			isa = PBXGroup;
+			children = (
+				425866CE1C2792EE00999FA8 /* InvalidQueryViewController.h */,
+				425866CF1C2792EE00999FA8 /* InvalidQueryViewController.m */,
+				425866D01C2792EE00999FA8 /* InvalidQueryViewController.xib */,
+			);
+			name = InvalidQuery;
+			sourceTree = "<group>";
+		};
+		4291AC2F1C3282FD006229DA /* CopyRight */ = {
+			isa = PBXGroup;
+			children = (
+				422431321C228D11008A0B0C /* CopyRightViewController.h */,
+				422431331C228D11008A0B0C /* CopyRightViewController.m */,
+				422431341C228D11008A0B0C /* CopyRightViewController.xib */,
+			);
+			name = CopyRight;
+			sourceTree = "<group>";
+		};
+		4291AC301C32830E006229DA /* About */ = {
+			isa = PBXGroup;
+			children = (
+				4224312D1C228C8A008A0B0C /* AboutViewController.h */,
+				4224312E1C228C8A008A0B0C /* AboutViewController.m */,
+				4224312F1C228C8A008A0B0C /* AboutViewController.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		5618C73A67169E4C525194B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425866C21C23DC0A00999FA8 /* libPPRevealSideViewController.a */,
+				425866C01C23D95900999FA8 /* QuartzCore.framework */,
+				425866BE1C23D94C00999FA8 /* CoreGraphics.framework */,
+				425866BC1C23D92F00999FA8 /* UIKit.framework */,
+				425866BA1C23D91D00999FA8 /* libPPHelpMe.a */,
+				425866B81C23D6F600999FA8 /* libPPRevealSideViewController.a */,
+				62D19C36CC3AE5046238F24C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8DA345AAD099BF803089603 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8ADDD0329FCB0456118E6124 /* Pods.debug.xcconfig */,
+				A304DE099F2BAF5E2ABA1E21 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4224311F1C2285CE008A0B0C /* Build configuration list for PBXNativeTarget "Tactri" */;
 			buildPhases = (
+				4689DD75E02AACC0470E1092 /* Check Pods Manifest.lock */,
 				422430EE1C2285CD008A0B0C /* Sources */,
 				422430EF1C2285CD008A0B0C /* Frameworks */,
 				422430F01C2285CD008A0B0C /* Resources */,
+				163CD4165D6CC01769802B7B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +426,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425866C61C23DEBF00999FA8 /* nav_hat.png in Resources */,
 				422431051C2285CD008A0B0C /* LaunchScreen.storyboard in Resources */,
 				422431021C2285CD008A0B0C /* Assets.xcassets in Resources */,
+				425866D91C27EF1E00999FA8 /* VaildQueryTableViewCell.xib in Resources */,
+				422431361C228D11008A0B0C /* CopyRightViewController.xib in Resources */,
+				4224312C1C2289A2008A0B0C /* ValidQueryViewController.xib in Resources */,
+				425866C81C23DF7400999FA8 /* ic_nav.png in Resources */,
 				422431001C2285CD008A0B0C /* Main.storyboard in Resources */,
+				4291AC351C3283C8006229DA /* ValidInfoViewController.xib in Resources */,
+				422431311C228C8A008A0B0C /* AboutViewController.xib in Resources */,
+				425866D21C2792EE00999FA8 /* InvalidQueryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +456,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		163CD4165D6CC01769802B7B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4689DD75E02AACC0470E1092 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		422430EE1C2285CD008A0B0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				422431351C228D11008A0B0C /* CopyRightViewController.m in Sources */,
 				422430FD1C2285CD008A0B0C /* ViewController.m in Sources */,
+				422431301C228C8A008A0B0C /* AboutViewController.m in Sources */,
 				422430FA1C2285CD008A0B0C /* AppDelegate.m in Sources */,
+				422431391C229F97008A0B0C /* LeftViewController.m in Sources */,
+				4224312B1C2289A2008A0B0C /* ValidQueryViewController.m in Sources */,
 				422430F71C2285CD008A0B0C /* main.m in Sources */,
+				4291AC381C328A1F006229DA /* ValidObject.m in Sources */,
+				4291AC341C3283C8006229DA /* ValidInfoViewController.m in Sources */,
+				425866D81C27EF1E00999FA8 /* VaildQueryTableViewCell.m in Sources */,
+				425866CB1C23E5B300999FA8 /* GlobalClass.m in Sources */,
+				425866D11C2792EE00999FA8 /* InvalidQueryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,10 +642,15 @@
 		};
 		422431201C2285CE008A0B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADDD0329FCB0456118E6124 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tactri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.iscom.Tactri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,10 +658,15 @@
 		};
 		422431211C2285CE008A0B0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A304DE099F2BAF5E2ABA1E21 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tactri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.iscom.Tactri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +739,7 @@
 				422431211C2285CE008A0B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422431221C2285CE008A0B0C /* Build configuration list for PBXNativeTarget "TactriTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +748,7 @@
 				422431241C2285CE008A0B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		422431251C2285CE008A0B0C /* Build configuration list for PBXNativeTarget "TactriUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +757,7 @@
 				422431271C2285CE008A0B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

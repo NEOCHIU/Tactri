@@ -1,0 +1,19 @@
+PODS:
+  - JSONModel (1.1.2)
+  - PPHelpMe (1.0.2)
+  - PPRevealSideViewController (1.2.2):
+    - PPHelpMe
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - JSONModel (~> 1.1.2)
+  - PPRevealSideViewController (~> 1.2.2)
+  - SVProgressHUD (~> 1.1.3)
+
+SPEC CHECKSUMS:
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  PPHelpMe: 243c40d2fad33ebdcc6b158c0db54893e0cc2d14
+  PPRevealSideViewController: be6d88511fcf55ddcfb9e9ad6167644a421e709a
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.38.2
